@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #473e612a;
+}
+
+.container{
+  height: 300px;
+  width: 300px;
+  background-color:#2e2a2a6e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+textarea{
+    outline: none;
+    font-size: 20px;
+    height: 50%;
+    width: 90%;
+    border-radius: 5px; 
+    border: none;
+    resize: none;
+    background-color: #ffffff6e;
+    
+}
+p{
+    font-size: 17px;
+    font-weight: 600;
+}
